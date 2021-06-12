@@ -1,0 +1,23 @@
+{
+  "name": "rabitmq-node-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node src/publisher.js",
+    "consume": "node src/consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep-giri/rabitmq-node-poc.git"
+  },
+  "author": "Pradeep Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep-giri/rabitmq-node-poc/issues"
+  },
+  "homepage": "https://github.com/pradeep-giri/rabitmq-node-poc#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
